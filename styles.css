@@ -1,0 +1,80 @@
+*
+{
+    appearance: none;
+    height: 100%;
+}
+
+body {
+    display: flex;
+}
+
+form {
+    margin-left: 20vh;
+    margin-top: 20vh;
+    height: 50vh;
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh;
+    flex-direction: column;
+}
+
+table {
+    margin-top: 20vh;
+    margin-left: 20vh;
+}
+
+input {
+    display: flex;
+    appearance: none;
+    height: 3vh;
+}
+
+#bookTable {
+    height: 40vh;
+    width: 80vh;
+}
+
+input[type="checkbox"] {
+    width: 2vh; 
+    height: 2vh; 
+    appearance: none; /* Remove default checkbox appearance */
+    border: 1px solid black; /* Set a black border */
+    background-color: white; /* Set a white background */
+    display: inline-block;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    width: 1.5vh;
+    height: 1.5vh;
+    background-color: black; /* Change the background color when checked */
+    border-color: black; /* Change the border color */
+}
+
+
+input[type="checkbox"]:not(:checked) {
+    background-color: white; /* Change the background color when unchecked */
+    border-color: black; /* Change the border color */
+}
+
+
+
+td {
+    padding: 1vh;
+}
+
+.delete-button {
+    width: 6vh;
+    height: 3vh;
+    border: 1px black solid;
+    background-color:blanchedalmond;
+    font-size: small;
+}
+.delete-button:active {
+    width: 6vh;
+    border: 1px black solid;
+    background-color:blueviolet;
+    font-size: small;
+}
